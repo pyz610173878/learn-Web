@@ -1,7 +1,7 @@
 const http = require('http');
 
-const hostname = '0.0.0.0';  // 监听的 IP 地址，0.0.0.0 表示任意计算机都可以访问
-const port = 8080;  // 监听的端口号
+const hostname = '43.138.242.159';  // 监听的 IP 地址，0.0.0.0 表示任意计算机都可以访问
+const port = 7000;  // 监听的端口号
 
 // 创建 HTTP 服务器
 const server = http.createServer((req, res) => {
